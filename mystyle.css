@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(125, 120, 120);
+    width: 375px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: Gotham, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;; */
+}
+.container {
+    background-color: white;
+    padding: 10px;
+}
+img {
+    text-align: center;
+    padding: 10px 20px 15px 0;
+    width: 70%; 
+}
+h3,
+h4,
+h5 {
+    font-weight: 300; 
+}
+.asset-information {
+    padding-bottom: 10px;
+}
+.assessment-photos {
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: star;
+    padding-bottom: 10px;
+    width: 100%;
+}
+input {
+    background-color: white;
+    outline: none;
+    border: none;
+    height: 20px;
+}
+form.inline {
+    display: flex;
+    flex-direction: row;
+}
+form.inline label {
+    padding-right: 20px;
+}
+form.inline input.quantity {
+    width: 30px;
+}
+.conditional-assessment {
+    padding: 10px 0 10px 0;
+}
+.condition-score {
+    color: rgb(147, 155, 152);
+    font-size: .7rem;
+}
+button {
+    text-align: center;
+    padding: 5px;
+    align-self: center;
+    width: 100%;
+    cursor: pointer;
+    background-color: rgb(244, 73, 73);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+footer {
+    width: 100%;
+    background-color: rgb(81, 78, 78);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    height: 50px;
+}
