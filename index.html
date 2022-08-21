@@ -18,13 +18,22 @@
       <h5>Location:</h5>
       <h5>Equipment Designation:</h5>
     </div>
-   <div class="assessment-photos" id="assessment-photos">
-    <h3>Assessment by Photos</h3>
-    <h5>Photo Of Asset Tag</h5>
-    <input type="image" src="#" alt="image">
-    <h5>Photo Of Asset</h5>
-    <input type="image" src="#" alt="image">
-   </div>
+    <div class="assessment-photos" id="assessment-photos">
+      <h3>Assessment by Photos</h3>
+      <h5>Photo Of Asset Tag</h5>
+      <input type="image" src="#" alt="image">
+      <h5>Photo Of Asset</h5>
+      <input type="image" src="#" alt="image">
+    </div>
+    <script type="text/javascript">var submitted = false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
+      onload="if(submitted){window.location='https://www.google.com/';}"></iframe>
+    <form action="#" method="post" target="hidden_iframe" onsubmit="submitted=true" class="myform">
+      <input type="text" placeholder="Your Name" name="#"><br />
+      <input type="text" placeholder="Email ID" name="#"><br />
+      <input type="text" placeholder="Comment" name="#"><br />
+      <input type="submit" value="Submit">
+    </form>
     <form>
       <label>Severity</label>
       <input list="severity" placeholder="Severity">
@@ -55,14 +64,13 @@
       <p>Photo Of Defect (If any)</p>
       <input type="image" src="#" alt="image">
     </div>
-    <div class="conditional-assessment" id="conditional-assessment">  
+    <div class="conditional-assessment" id="conditional-assessment">
       <h4>Condition Score</h4>
       <div class='condition-score' id="condition-score">[Score and remarks goes here]</div>
       <input type="text">
     </div>
     <button type="submit">SUBMIT</button>
+    <footer>&copyDavid Onquit-Web Developer</footer>
   </div>
-  <footer>&copyDavid Onquit-Web Developer</footer>
 </body>
-
 </html>
