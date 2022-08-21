@@ -10,7 +10,7 @@ body {
     background-color: rgb(125, 120, 120);
     font-family: 'Open Sans', sans-serif;
     display: flex;
-    width: 375px;
+    max-width: 440px;
     flex-direction: column;
     margin: 0 auto;
     /* font-family: Gotham, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;; */
@@ -83,6 +83,7 @@ button {
     color: white;
     border: none;
     border-radius: 3px;
+    margin-bottom: 10px;
 }
 footer {
     width: 100%;
@@ -91,5 +92,5 @@ footer {
     text-align: center;
     padding: 15px 0;
     height: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
